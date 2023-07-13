@@ -3,6 +3,10 @@
   "displayName": "Scarpe_Vscode_Extension",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gintama91/Scarpe-Vscode-Extension"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -14,8 +18,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "Scarpe.helloWorld",
-        "title": "Hello World"
+        "command": "Scarpee.runCurrent",
+        "title": "Scarpe run current file"
       }
     ]
   },
