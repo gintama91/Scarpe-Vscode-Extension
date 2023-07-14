@@ -19,7 +19,15 @@
     "commands": [
       {
         "command": "Scarpee.runCurrent",
-        "title": "Scarpe run current file"
+        "title": "Scarpe Development:run current file"
+      },
+      {
+        "command":"Scarpee.debug",
+        "title":"Scarpe Development: debug current file"
+      },
+      {
+        "command":"Scarpee.production",
+        "title":"Scarpe run current file"
       }
     ]
   },
